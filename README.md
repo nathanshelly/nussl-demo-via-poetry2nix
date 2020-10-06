@@ -9,7 +9,7 @@ Nix provides `python` & `poetry` (plus other external dependencies like `sox`). 
 This requires having [Nix](https://nixos.org/) installed. Here are [Nix's install instructions](https://nixos.org/download.html#nix-quick-install).
 
 ```bash
-> git clone <>
+> git clone git@github.com:nathanshelly/nussl-demo-via-poetry2nix.git
 > cd nussl-demo-via-poetry2nix
 # activates new shell w/ external dependencies - python, poetry, sox
 > nix-shell
