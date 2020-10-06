@@ -1,6 +1,6 @@
 # nussl demo via poetry2nix
 
-This repo packages a simple source separation from `nussl` using `poetry2nix`.
+This repo packages a simple source separation from `nussl` using `poetry2nix` ([live coding video explanation](https://www.youtube.com/watch?v=TbIHRHy7_JM) & [blog post explanation](https://www.tweag.io/blog/2020-08-12-poetry2nix/)).
 
 Nix provides `python` & `poetry` (plus other external dependencies like `sox`). Poetry provides python dependencies.
 
@@ -22,11 +22,6 @@ $ poetry run start
 ```
 
 > If you have [`direnv`](https://direnv.net/) & [`nix-direnv`](https://github.com/nix-community/nix-direnv) installed you can skip the `nix-shell` step, all Nix dependencies will be automatically loaded and unloaded as you `cd` in and out of the folder.
-
-## further `poetry2nix` learning
-
-- [blog post](https://www.tweag.io/blog/2020-08-12-poetry2nix/)
-- [live coding video](https://www.youtube.com/watch?v=TbIHRHy7_JM)
 
 ## todo
 
