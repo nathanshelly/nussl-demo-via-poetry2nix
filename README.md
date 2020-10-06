@@ -1,6 +1,6 @@
 # nussl demo via poetry2nix
 
-This repo packages a simple source separation from [`nussl`](https://github.com/nussl/nussl) using `poetry2nix` ([live coding video explanation](https://www.youtube.com/watch?v=TbIHRHy7_JM) & [blog post explanation](https://www.tweag.io/blog/2020-08-12-poetry2nix/)).
+This repo packages a [simple interactive source separation demo](https://github.com/nussl/nussl/tree/gradio#interaction) from [`nussl`](https://github.com/nussl/nussl) using `poetry2nix` ([live coding video explanation](https://www.youtube.com/watch?v=TbIHRHy7_JM) & [blog post explanation](https://www.tweag.io/blog/2020-08-12-poetry2nix/)).
 
 Nix provides Python & Poetry (plus other external dependencies like `sox`). [Poetry](https://python-poetry.org/) provides python dependencies.
 
